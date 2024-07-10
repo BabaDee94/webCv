@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornsilk;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.container {
+    background: rgb(173, 187, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width: 100%;
+    flex-direction: column;
+    padding: 50px;
+   
+}
+
+.container img p {
+    margin: 20px;
+}
+
+.container .NamPro p {
+ display: flex;
+ justify-content: center;
+ text-align: center;
+}
+.container h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container img {
+    width: 10rem;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.container-2, .section-1, .section-2 {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.section-1 h3 {
+    margin-bottom: 15px;
+}
+
+.section-1 ol li {
+    list-style-type: none;
+    display: inline;
+    justify-content: space-between;
+}
+
+.section-1 ol li {
+  margin-right: 10px;
+  background: rgb(173, 187, 187);
+  padding: 3px;
+}
+
+.section-2, h3, h5 {
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+.section-2 h5 {
+    font-size: 14px;
+} 
+
+.section-2 p {
+    font-size: 14px;
+}
+
+.section-2 ul {
+    margin: 40px;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 9rem;
+    background-color: rgb(173, 187, 187);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .dee {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+fieldset {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 10px solid transparent;
+    border-top: #000;
+
+}
+
+legend {
+    animation: move 10s infinite linear alternate;
+    padding: 0 10px;
+}
+
+@keyframes marginMove {
+    100% {
+        margin-left: 70px;
+    }
+}
+
+fieldset:nth-of-type(2){
+    transform: : rotate(90deg);}
+fieldset:nth-of-type(3){
+    transform: : rotate(180deg);}
+fieldset:nth-of-type(3)>legend{
+    transform: : rotate(180deg);}
+fieldset:nth-of-type(4){
+    transform: : rotate(90deg);} */
+    
+
+@media (max-width: 800px) {
+   .container {
+    flex-direction: column;
+   }
+
+   h3, ol {
+    text-align: center;
+   }
+
+   h3 {
+    font-size: 28px;
+   }
+
+   .section-2 h5,  p {
+    transform: translateX(48px);
+   }
+
+   .section-3 p a {
+        text-align: center;
+   }
+}
